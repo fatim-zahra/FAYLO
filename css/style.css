@@ -1,0 +1,214 @@
+*{
+    margin: 0PX;
+    padding: 0PX;
+}
+BODY{
+    background-color: hsl(217, 28%, 15%);
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    }
+nav{ 
+    display: flex;
+    justify-content: space-between;
+    padding: 80PX 60PX;
+    align-self: center;
+
+}
+li{
+ display: inline-block;
+ margin-left: 40PX;
+ font-size: 14PX;
+ color: rgba(255, 255, 255, 0.664);
+}
+
+.LOGO{
+    width: 140PX;  
+}
+.img2{
+    text-align: center;
+}
+.img2 img{
+    width: 620PX;
+
+}
+h1{
+    font-size: 30PX;
+    margin-top: 30px;
+    margin-bottom: 30PX;
+    line-height: 50PX;
+}
+P{
+    color: rgba(255, 255, 255, 0.89);
+    line-height: 28PX;
+    font-size: 17PX;
+    margin-bottom: 20PX;
+}
+button{
+    background-color:   hsla(198, 92%, 65%, 0.938);
+    padding: 15PX 80PX;
+    color: white;
+    border-radius: 40px;
+    border: none;
+    transition: .5S;
+    cursor: pointer;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+   padding-left: 160PX;
+   padding-right: 160PX;
+   grid-row-gap:60PX;
+   margin-top: 100PX;
+}
+.grid div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.grid p{
+    width: 360px;
+    font-size: 13PX;
+    text-align: center;
+    line-height: 18PX;
+    
+}
+.grid h4{
+    margin-bottom:15PX ;
+    margin-top:30PX ;
+    font-size: 15PX;
+}
+.grid img{
+   height : 70PX;
+
+}
+.flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100PX;
+    padding-right: 70PX;
+    padding-left: 70PX;
+}
+.flex img{
+    width: 600PX;
+}
+.flex h2{
+    font-size: 36PX;
+    margin-bottom: 15PX;
+}
+.flex p{
+    font-size: 15PX;
+    margin-bottom: 17PX;
+}
+.flex h5{
+    font-size: 18PX;
+    color:  hsla(176, 82%, 63%, 0.815);
+    font-weight: 100;
+    border-bottom: 1.5PX solid hsla(176, 82%, 63%, 0.815 );
+    width: 180PX;
+}
+.flex2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100PX;
+}
+.CARD1{
+background-color:  hsl(219, 30%, 18%);
+padding: 30PX;
+border-radius: 10PX;
+}
+.CARD1 p{
+    font-size: 15PX;
+    line-height: 20PX;
+}
+.CARD1 img{
+    border-radius: 50%;
+    margin-right: 15PX;
+}
+
+.DIV{
+    display: flex;
+    align-items: center;
+}
+h6{
+    font-size: 8PX;
+    color: rgba(255, 255, 255, 0.87);
+    margin-top: 8PX;
+}
+.SEC5{
+    background-color:  hsla(218, 58%, 14%, 0.836);
+    margin: 180PX 200PX;
+    padding: 50PX;
+    border-radius: 10PX;
+    
+}
+.H33{
+   
+    text-align: center;
+    margin-bottom: 20PX;
+    font-size: 30PX;
+}
+.p4{
+    font-size: 15PX;
+    font-weight: 150;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.856);
+    line-height: 20PX;
+    margin-bottom: 30PX;
+}
+input{
+    padding: 15PX 50PX 15PX 50PX ;
+    width: 360PX;
+    border-radius: 30PX;
+    margin-right: 30PX;
+
+}
+.BTN2{
+    padding: 15PX 30PX;
+}
+input::placeholder{
+    color: rgba(211, 208, 208, 0.623);
+}
+.DV1 {
+    display: flex;
+    justify-content: space-between;
+}
+.img_1{
+    display: flex;
+    align-items: flex-start;
+    
+}
+footer{
+    background-color: hsl(216, 53%, 9%);
+    padding: 50PX 80PX;
+    }
+.LOGO{
+  margin-bottom: 30PX;
+  width: 180PX;
+}
+.IM2{
+    margin: 10PX 20PX;
+}
+.EFLX4 img{
+    margin: 10PX 20PX;
+}
+
+footer p{
+    color: rgba(238, 235, 235, 0.829);
+    font-size: 15PX;
+    margin-bottom: 10PX;
+}
+.PARGH{
+    line-height: 25PX;
+}
+i{
+    margin-left: 15PX;
+    font-size: 17PX;
+    border:1PX solid white;
+    padding: 10PX;
+    border-radius: 50%;
+}
+button:hover{
+    background-color: tomato;
+    }
